@@ -23,8 +23,18 @@ public class EjercicioNotas {
 
         if (nota >= 9.5 && nota <= 10.0) {
             System.out.println("receibe un 80% de beca");
+        } else if (nota >= 8.5 && nota <= 9.4) {
+            System.out.println("receibe un 40% de beca");
+
+        } else if (nota >= 8.0 && nota <= 8.4) {
+            System.out.println(" No recibe nada ");
+
+        } else if (nota >= 8.0 && nota <= 8.4) {
+            System.out.println("receibe un 25% de beca");
+
         } else {
-            System.out.println(" No receibe un 80% de beca");
+            System.out.println(" Repita el ICFES mij@ ");
+
         }
     }
 }
